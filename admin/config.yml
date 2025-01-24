@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: main  # Change this if your primary branch is different (e.g., master)
+
+media_library:
+  name: uploadcare  # You can also use Cloudinary or leave it blank for Git storage
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
