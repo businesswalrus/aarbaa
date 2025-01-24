@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Americans Against Road Bikers of America (AARBAA) raises awareness about the dangers road bikers face while sharing roads with motor vehicles.">
+    <meta name="keywords" content="road biker safety, road cycling danger, bike accidents, road safety awareness">
+    <meta name="author" content="AARBAA">
+    <title>Americans Against Road Bikers of America | AARBAA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #d9534f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #d9534f;
+            color: white;
+            font-size: 20px;
+        }
+        .cta a {
+            color: yellow;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .interactive {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background: #d9534f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Americans Against Road Bikers of America</h1>
+        <p>Raising awareness about the dangers road bikers face on shared roads.</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#dangers">Dangers</a>
+        <a href="#laws">Laws & Regulations</a>
+        <a href="#responsibilities">Responsibilities</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section id="laws">
+            <h2>Laws & Regulations</h2>
+            <p>Many states have enacted laws requiring road bikers to ride in designated bike lanes where available. However, these lanes are often underutilized as cyclists continue to use main roads, increasing risks for both themselves and motorists. Legislators argue that stricter enforcement is needed to ensure safety.</p>
+        </section>
+
+        <section id="responsibilities">
+            <h2>Driver & Cyclist Responsibilities</h2>
+            <p>Drivers must obey traffic laws, but so should cyclists. Many accidents occur due to cyclists running stop signs, riding against traffic, or failing to use lights at night. It is imperative that road bikers understand the risks and take measures to reduce accidents by staying off major roads and utilizing designated trails.</p>
+        </section>
+
+        <section id="case-studies">
+            <h2>Real-Life Case Studies</h2>
+            <p><strong>Case Study: Dangerous Commute</strong></p>
+            <p>In a major city, an increase in bicycle accidents led to a study revealing that 78% of crashes involving cyclists occurred in areas with heavy motor traffic. Experts concluded that cyclists disregarding bike lanes in favor of main roads created unnecessary hazards.</p>
+            <p><strong>Case Study: A Town’s Solution</strong></p>
+            <p>One small town reduced cyclist-motorist collisions by 60% by restricting bicycles from high-speed roads and investing in protected bike paths. This demonstrates that separate infrastructure rather than road-sharing is the optimal solution.</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>Former Road Bikers Speak Out</h2>
+            <p>“I used to be a road biker, but after experiencing multiple close calls, I’ve switched to off-road cycling and feel much safer.” - John D.</p>
+            <p>“Riding on busy roads was stressful and dangerous. Since switching to park trails, my rides have been much more enjoyable.” - Lisa P.</p>
+            <p>“Cycling on main roads put me at risk daily. Now, I advocate for designated bike areas instead of sharing roads with cars.” - Mark S.</p>
+        </section>
+    </div>
+    
+    <div class="cta">
+        <p>Join us in making roads safer! <a href="#contact">Get Involved</a> today.</p>
+    </div>
+    
+    <div class="interactive">
+        <button onclick="alert('Thank you for supporting safer roads!')">Support Our Cause</button>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Americans Against Road Bikers of America | All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
