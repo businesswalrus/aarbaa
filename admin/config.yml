@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  branch: main  # Change this if your primary branch is different (e.g., master)
+  branch: main
 
 media_library:
-  name: uploadcare  # You can also use Cloudinary or leave it blank for Git storage
+  name:
 
 collections:
   - name: "posts"
